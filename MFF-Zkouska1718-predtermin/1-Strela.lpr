@@ -24,7 +24,6 @@ function Delka(a : tVektor) : real;
 
 function SouradniceToVektor(a : tSouradnice; R : real) : tVektor;
      var theta, fi : real;
-         //result : tVektor;
          k : real = pi/180;
      begin
          theta := k*(90-a.sSirka);
@@ -39,7 +38,6 @@ function SouradniceToVektor(a : tSouradnice; R : real) : tVektor;
 
 function VektorToSouradnice(a : tVektor) : tSouradnice;
      var theta, fi, R : real;
-         //result : tSouradnice;
          k : real = 180/pi;
      begin
          R := Delka(a);
